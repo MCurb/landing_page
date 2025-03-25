@@ -157,4 +157,38 @@ h2 {
     
 }
 
+/*SECTION FOUR CTA*/
 
+.cta-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 80px 200px;
+    padding: 40px 80px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+.cta-text p {
+    margin: 0;
+}
+
+.cta-text .main {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 2px;
+    color: #F9FAF8;
+}
+
+.cta-text .subtext {
+    color: #E5E7EB;
+}
+
+.cta-section button {
+    color: white;
+    border: solid white;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
