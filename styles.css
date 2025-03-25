@@ -68,9 +68,13 @@ h1 {
 }
 
 .header .header-image {
+   width: 400px;
+   height: auto;
+}
+
+.header-image img {
     width: 400px;
     height: auto;
-    background-color: grey;
 }
 
 .header-txt-img {
