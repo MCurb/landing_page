@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    height: 250vh;
     display: flex;
     flex-direction: column;
 }
@@ -35,7 +34,7 @@ ul {
     gap: 15px;
 }
 
-.header .left-links {
+.header .left-logo {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -47,29 +46,12 @@ a {
 
 /*Header Text and img*/
 
-.header .img-main {
-    width: 400px;
-    height: auto;
-    background-color: grey;
-}
-
-.header-main {
+.header-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-basis: 450px;
     gap: 8px;
-}
-
-.main-layout {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    gap: 40px;
-}
-
-.header-button {
-    align-self: flex-start;
 }
 
 h1 {
@@ -85,23 +67,33 @@ h1 {
     color: #E5E7EB;
 }
 
+.header .header-image {
+    width: 400px;
+    height: auto;
+    background-color: grey;
+}
+
+.header-txt-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
 .header-button {
+    align-self: flex-start;
     border: none;
     color: #F9FAF8;
+    background-color: #3582F6;
     font-weight: 700;
     font-size: 18px;
     padding: 5px 20px;
     border-radius: 5px;
 }
 
-button {
-    background-color: #3582F6;
-}
-
-
 /*SECTION TWO*/
 
-.content {
+.main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,32 +104,33 @@ h2 {
     font-size: 36px;
 }
 
-.img-content {
+.content-images {
     display: flex;
     gap: 50px;
 }
 
-.img-content div {
+.content-images div {
     width: 180px;
     text-align: center;
     gap: 10px;
 }
 
-.content p {
-    margin-top: 5px;
-    margin-bottom: 0;
-    color: gray;
-}
-
-.content img {
+.main-content img {
     width: 180px;
     height: 180px;
     border-radius: 20px;
 }
 
+.main-content p {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+
 /*SECTION THREE "QUOTE"*/
 
-.quote-section {
+.quote-div {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -145,23 +138,22 @@ h2 {
     
 }
 
-.quote-section p {
+.quote-div p {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     margin: 0;
 }
 
-.quote-section span {
+.quote-div span {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 500;
-    
 }
 
 /*SECTION FOUR CTA*/
 
-.cta-section {
+.cta-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -173,11 +165,7 @@ h2 {
     border-radius: 5px;
 }
 
-.cta-text p {
-    margin: 0;
-}
-
-.cta-text .main {
+.cta-text .main-text {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 2px;
@@ -188,7 +176,12 @@ h2 {
     color: #E5E7EB;
 }
 
-.cta-section button {
+.cta-text p {
+    margin: 0;
+}
+
+.cta-div button {
+    background-color: #3582F6;
     color: white;
     border: solid white;
     padding: 5px 25px;
